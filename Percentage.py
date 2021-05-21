@@ -1,0 +1,10 @@
+name = input("Enter name of student = ")
+num1 = int(input("Enter number of subject1 = "))
+num2 = int(input("Enter number of subject2 = "))
+num3 = int(input("Enter number of subject3 = "))
+num4 = int(input("Enter number of subject4 = "))
+num5 = int(input("Enter number of subject5 = "))
+total = int(input("Enter total number of exam = "))
+totalOb = (num1+num2+num3+num4+num5)
+percentage = (totalOb/total)*100
+print(name," percentage is ",percentage)
